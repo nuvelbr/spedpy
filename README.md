@@ -9,6 +9,8 @@ Essa biblioteca é originado da ramificação do projeto python-sped de contribu
 - python
 - six
 
+Dependências de teste (pytest, coveralls) ficam em `requirements-dev.txt`: `pip install -r requirements-dev.txt`.
+
 ## Como instalar
 
     $ pip install spedpy
