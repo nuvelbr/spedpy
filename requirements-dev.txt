@@ -1,0 +1,5 @@
+# Test/CI-only tooling; deliberately NOT in requirements.txt (setup.py install_requires)
+# so consumers installing spedpy do not inherit these pins.
+-r requirements.txt
+coveralls==0.5
+pytest==8.4.2
